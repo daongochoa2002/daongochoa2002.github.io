@@ -58,6 +58,7 @@ img { max-width: 100%; height: auto; }
   color: var(--primary-dark) !important;
 }
 
+.site-nav .nav-link.btn-cv,
 .btn-cv {
   background: var(--primary);
   color: #fff !important;
@@ -66,6 +67,7 @@ img { max-width: 100%; height: auto; }
   font-weight: 600;
 }
 
+.site-nav .nav-link.btn-cv:hover,
 .btn-cv:hover { background: var(--primary-dark); color: #fff !important; }
 
 .navbar-toggler {
@@ -236,7 +238,7 @@ img { max-width: 100%; height: auto; }
 
 .job h3 {
   font-size: 1.1rem;
-  font-weight: 650;
+  font-weight: 600;
   margin-bottom: 0.15rem;
 }
 
